@@ -1,0 +1,46 @@
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-2 pt-4 mb-0">
+            <a href="{{{logohref}}}" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="{{{logourl}}}" width="250px" alt="{{{logoalt}}}">
+            </a>
+            <h1 class="d-flex text-end fw-light" >Web Services</h1>
+        </header>
+        <hr>
+    </div>
+    <main class="container ">
+        <section class="dash-area container">
+            <div class="row justify-content-center">
+            <h2>Links to Web Services</h2>
+                <!-- This is the capsule for the quickdash stuff. -->
+                <div class="quickdash-outter"> 
+                    <div class="text-center"> 
+                        <p>Loading...</p>
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- This should point to the client, for example: www.quickdash.com/dash.js -->
+                <script>
+                    var dash_referrer = '{{referrer}}';
+                    var dash_tags = '{{tags}}';
+                </script>
+                <script src="{{{dashjsurl}}}"></script>
+            </div>
+        </section>
+        <hr>
+        <section class="text-center container">
+            <div class="row py-3">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Links for Students and Staff</h1>
+                <p class="lead ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>
+                    <a href="#" class="btn btn-secondary my-2">Action button 1</a>
+                    <a href="#" class="btn btn-danger my-2">Action button 2</a>
+                </p>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>

@@ -1,0 +1,33 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #00314f #bab177;
+}
+
+.quickdash-dashboard {}
+
+.quickdash-itemlink {
+    padding: 0px;
+}
+
+.quickdash-inner {}
+
+.quickdash-svg {}
+
+.quickdash-text {
+    font-family: "PT Sans",Arial,sans-serif;
+    overflow-wrap: break-word;
+}
+
+.quickdash-name {
+    font-size: 1rem;
+    margin-top: 0px;
+}
+
+.quickdash-source {
+    font-size: 0.65rem;
+}
+
+/* Hover effects */
+.quickdash-itemlink:hover,
+.quickdash-itemlink:focus,
+.quickdash-itemlink:active {}

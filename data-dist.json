@@ -1,0 +1,20 @@
+{
+    "links": {
+        "firstlink": {
+            "name": "First link",
+            "description": "First link",
+            "icon": {
+                "type": "bootstrap",
+                "name": "google"
+            },
+            "url": "https://google.com",
+            "source": "google.com",
+            "tags": [
+                "search",
+                "other",
+                "core"
+            ],
+            "origin": "google"
+        }
+    }
+}

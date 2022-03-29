@@ -1,0 +1,559 @@
+{
+    "links": {
+        "office": {
+            "name": "Email / Office 365",
+            "description": "Microsoft email and office 365 site",
+            "icon": {
+                "type": "custom",
+                "name": "office"
+            },
+            "url": "https://mail.outlook.office.site",
+            "source": "mail.outlook.office.site",
+            "tags": [
+                "staff",
+                "student",
+                "core"
+            ],
+            "origin": "office"
+        },
+        "mypages": {
+            "name": "My Pages",
+            "description": "Moodle dashboard page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "speedometer2"
+            },
+            "url": "https://coolmoodle.web/my/",
+            "source": "coolmoodle.web/my",
+            "tags": [
+                "student",
+                "staff"
+            ],
+            "origin": "moodle"
+        },
+        "moodle": {
+            "name": "Moodle",
+            "description": "University of Mars Moodle site",
+            "icon": {
+                "type": "custom",
+                "name": "moodle"
+            },
+            "url": "https://coolmoodle.web/",
+            "source": "coolmoodle.web",
+            "tags": [
+                "staff",
+                "core"
+            ],
+            "origin": "moodle"
+        },
+        "librarycat": {
+            "name": "Library Catalogue",
+            "description": "Library catalogue powered by Capital Discovery",
+            "icon": {
+                "type": "bootstrap",
+                "name": "book-half"
+            },
+            "url": "https://librarycatalogue.university/",
+            "source": "librarycatalogue.university",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "capitadiscovery"
+        },
+        "staffnet": {
+            "name": "Staffnet",
+            "description": "University of Mars Staff Intranet pages",
+            "icon": {
+                "type": "custom",
+                "name": "sharepoint"
+            },
+            "url": "https://staff.net.com/",
+            "source": "staff.net.com",
+            "tags": [
+                "core",
+                "staff"
+            ],
+            "origin": "staffnet"
+        },
+        "libraryservices": {
+            "name": "Library Services",
+            "description": "Library services page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "book-half"
+            },
+            "url": "https://coolmoodle.web/library",
+            "source": "coolmoodle.web/library",
+            "tags": [
+                "student",
+                "staff"
+            ],
+            "origin": "moodle"
+        },
+        "panopto": {
+            "name": "Panopto",
+            "description": "Panopto video database",
+            "icon": {
+                "type": "custom",
+                "name": "panopto"
+            },
+            "url": "https://panopto.university.site",
+            "source": "panopto.university.site",
+            "tags": [
+                "student",
+                "core"
+            ],
+            "origin": "panopto"
+        },
+        "studyskills": {
+            "name": "Study Skills",
+            "description": "Moodle study skills page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "pencil-fill"
+            },
+            "url": "https://coolmoodle.web/studyskills",
+            "source": "coolmoodle.web/studyskills",
+            "tags": [
+                "student"
+            ],
+            "origin": "moodle"
+        },
+        "marsview": {
+            "name": "marsview",
+            "description": "MarsView academic portal for students and staff",
+            "icon": {
+                "type": "bootstrap",
+                "name": "person-square"
+            },
+            "url": "https://student.view.site",
+            "source": "student.view.site",
+            "tags": [
+                "staff",
+                "student",
+                "core"
+            ],
+            "origin": "marsview"
+        },
+        "handbook": {
+            "name": "Student Handbook",
+            "description": "Student handbook page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "journal-bookmark-fill"
+            },
+            "url": "https://handbook.student.uni",
+            "source": "handbook.student.uni",
+            "tags": [
+                "student",
+                "staff-morelinks"
+            ],
+            "origin": "ipps"
+        },
+        "careers": {
+            "name": "Careers Page",
+            "description": "Careers page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "briefcase-fill"
+            },
+            "url": "https://coolmoodle.web/careers",
+            "source": "coolmoodle.web/careers",
+            "tags": [
+                "student"
+            ],
+            "origin": "moodle"
+        },
+        "computer": {
+            "name": "PC & Booth Bookings ",
+            "description": "Book a booth or computer",
+            "icon": {
+                "type": "bootstrap",
+                "name": "laptop"
+            },
+            "url": "https://bookpc.site.web/",
+            "source": "bookpc.site.web",
+            "tags": [
+                "student",
+                "staff-morelinks"
+            ],
+            "origin": "mypc"
+        },
+        "wellbeing": {
+            "name": "Student Wellbeing",
+            "description": "Student wellbeing page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "heart-fill"
+            },
+            "url": "https://coolmoodle.web/wellbeing",
+            "source": "coolmoodle.web/wellbeing",
+            "tags": [
+                "student"
+            ],
+            "origin": "moodle"
+        },
+        "supportme": {
+            "name": "Support Request",
+            "description": "Log a call and get help with an issue",
+            "icon": {
+                "type": "bootstrap",
+                "name": "life-preserver"
+            },
+            "url": "https://help.it.web.site",
+            "source": "help.it.web.site",
+            "tags": [
+                "staff",
+                "student",
+                "core"
+            ],
+            "origin": "supportme"
+        },
+        "hrss": {
+            "name": "HR Self-Service",
+            "description": "HR Self-Service for staff",
+            "icon": {
+                "type": "bootstrap",
+                "name": "person-badge"
+            },
+            "url": "https://staff.hr.service.web",
+            "source": "staff.hr.service.web",
+            "tags": [
+                "staff"
+            ],
+            "origin": "webitrent"
+        },
+        "help": {
+            "name": "Help Site",
+            "description": "Help site for information",
+            "icon": {
+                "type": "bootstrap",
+                "name": "question-circle-fill"
+            },
+            "url": "https://helpsite.internet.wiki/",
+            "source": "helpsite.internet.wiki",
+            "tags": [
+                "staff",
+                "student",
+                "core"
+            ],
+            "origin": "help"
+        },
+        "maps": {
+            "name": "Maps",
+            "description": "University of Mars maps",
+            "icon": {
+                "type": "bootstrap",
+                "name": "geo-alt-fill"
+            },
+            "url": "https://maps.university.com/",
+            "source": "maps.university.com",
+            "tags": [
+                "core"
+            ],
+            "origin": "maps"
+        },
+        "roombookings": {
+            "name": "Room Bookings",
+            "description": "Book a room",
+            "icon": {
+                "type": "bootstrap",
+                "name": "tv"
+            },
+            "url": "https://rooms.book.place",
+            "source": "rooms.book.place",
+            "tags": [
+                "staff"
+            ],
+            "origin": "tarb"
+        },
+        "sam": {
+            "name": "SAM",
+            "description": "Student Attendace Monitor",
+            "icon": {
+                "type": "bootstrap",
+                "name": "clipboard-check"
+            },
+            "url": "https://student.monitor.web/",
+            "source": "student.monitor.web",
+            "tags": [
+                "staff"
+            ],
+            "origin": "seats"
+        },
+        "maf": {
+            "name": "MAF",
+            "description": "Module Assessment Feedback",
+            "icon": {
+                "type": "bootstrap",
+                "name": "file-earmark-text"
+            },
+            "url": "https://module.course.school/",
+            "source": "module.course.school",
+            "tags": [
+                "staff"
+            ],
+            "origin": "maf"
+        },
+        "covid19": {
+            "name": "COVID-19",
+            "description": "Information regarding COVID-19",
+            "icon": {
+                "type": "custom",
+                "name": "virus"
+            },
+            "url": "https://helpsite.internet.wiki/covid-19",
+            "source": "helpsite.internet.wiki/covid-19",
+            "tags": [
+                "staff",
+                "student",
+                "core"
+            ],
+            "origin": "help"
+        },
+        "events": {
+            "name": "University Events",
+            "description": "University of Mars events page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "calendar2-event"
+            },
+            "url": "https://events.hype.site",
+            "source": "events.hype.site",
+            "tags": [
+                "staff"
+            ],
+            "origin": "staffnet"
+        },
+        "teachonline": {
+            "name": "Online Teaching",
+            "description": "Online learning and teaching page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "wifi"
+            },
+            "url": "https://helpsite.internet.wiki/teachonline",
+            "source": "helpsite.internet.wiki/teachonline",
+            "tags": [
+                "staff"
+            ],
+            "origin": "help"
+        },
+        "teachingtimetables": {
+            "name": "Teaching Timetables",
+            "description": "Teaching and learning timetables",
+            "icon": {
+                "type": "bootstrap",
+                "name": "table"
+            },
+            "url": "https://timetables.info.site",
+            "source": "timetables.info.site",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "ipps"
+        },
+        "finance": {
+            "name": "Finance Portal",
+            "description": "Finance software portal",
+            "icon": {
+                "type": "bootstrap",
+                "name": "calculator"
+            },
+            "url": "https://finance.com.site",
+            "source": "finance.com.site",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "finance"
+        },
+        "semesterdates": {
+            "name": "Semester Dates",
+            "description": "Course and semester dates",
+            "icon": {
+                "type": "bootstrap",
+                "name": "calendar3"
+            },
+            "url": "https://semesterdates.com",
+            "source": "semesterdates.com",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "mars"
+        },
+        "computeravailability": {
+            "name": "PC Availability",
+            "description": "Computer availability",
+            "icon": {
+                "type": "bootstrap",
+                "name": "display"
+            },
+            "url": "https://busy.place.com/",
+            "source": "busy.place.com",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "availability"
+        },
+        "livebus": {
+            "name": "Live Bus Times",
+            "description": "Live bus timetables for University campuses",
+            "icon": {
+                "type": "bootstrap",
+                "name": "stoplights"
+            },
+            "url": "https://bus.transport.site/",
+            "source": "bus.transport.site",
+            "tags": [
+                "staff-morelinks",
+                "student-morelinks"
+            ],
+            "origin": "bus"
+        },
+        "bustimetable": {
+            "name": "Bus & Transport Page",
+            "description": "Moodle trasnport page with bus timetables",
+            "icon": {
+                "type": "bootstrap",
+                "name": "table"
+            },
+            "url": "https://coolmoodle.web/transport",
+            "source": "coolmoodle.web/transport",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "moodle"
+        },
+        "passwordmanager": {
+            "name": "Password Manager",
+            "description": "Account password manager",
+            "icon": {
+                "type": "bootstrap",
+                "name": "key"
+            },
+            "url": "https://password.manager.com/",
+            "source": "password.manager.com",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "password"
+        },
+        "mobileprinting": {
+            "name": "Mobile Printing",
+            "description": "Mobile printing services",
+            "icon": {
+                "type": "bootstrap",
+                "name": "printer"
+            },
+            "url": "https://phone.print.site/",
+            "source": "phone.print.site",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "webprint"
+        },
+        "printingcredit": {
+            "name": "Printing Credit",
+            "description": "Top-up your printing credit",
+            "icon": {
+                "type": "bootstrap",
+                "name": "currency-pound"
+            },
+            "url": "https://print.pay.online/",
+            "source": "print.pay.online",
+            "tags": [
+                "staff-morelinks",
+                "student-morelinks"
+            ],
+            "origin": "printpayments"
+        },
+        "store": {
+            "name": "Online Store",
+            "description": "University of Mars online store",
+            "icon": {
+                "type": "bootstrap",
+                "name": "bag"
+            },
+            "url": "https://emarket.online.com/",
+            "source": "emarket.online.com",
+            "tags": [
+                "staff-morelinks",
+                "student-morelinks"
+            ],
+            "origin": "store"
+        },
+        "ucsu": {
+            "name": "UCSU",
+            "description": "University of Mars Students' Union site",
+            "icon": {
+                "type": "bootstrap",
+                "name": "dribbble"
+            },
+            "url": "https://www.studentsite.org/",
+            "source": "www.studentsite.org",
+            "tags": [
+                "student-morelinks"
+            ],
+            "origin": "ucsu"
+        },
+        "policies": {
+            "name": "University Policies",
+            "description": "University policies page",
+            "icon": {
+                "type": "bootstrap",
+                "name": "journal-album"
+            },
+            "url": "https://policies.internet.com",
+            "source": "policies.internet.com",
+            "tags": [
+                "staff-morelinks"
+            ],
+            "origin": "mars"
+        },
+        "remotework": {
+            "name": "Working Remotely",
+            "description": "Working remotely setup and help",
+            "icon": {
+                "type": "bootstrap",
+                "name": "webcam-fill"
+            },
+            "url": "https://helpsite.internet.wiki/remoteapps",
+            "source": "helpsite.internet.wiki/remoteapps",
+            "tags": [
+                "student-morelinks",
+                "staff-morelinks"
+            ],
+            "origin": "help"
+        },
+        "careersboard": {
+            "name": "Careers Board",
+            "description": "Careers and job board",
+            "icon": {
+                "type": "bootstrap",
+                "name": "newspaper"
+            },
+            "url": "https://jobs.site.com",
+            "source": "jobs.site.com",
+            "tags": [
+                "student-morelinks",
+                "staff-morelinks"
+            ],
+            "origin": "jobteaser"
+        },
+        "links": {
+            "name": "More Links",
+            "description": "University of Mars links to services",
+            "icon": {
+                "type": "bootstrap",
+                "name": "link"
+            },
+            "url": "https://self.links.com",
+            "source": "self.links.com",
+            "tags": [
+                "student",
+                "staff"
+            ],
+            "origin": "links"
+        }
+    }
+}

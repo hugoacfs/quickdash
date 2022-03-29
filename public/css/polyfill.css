@@ -1,0 +1,28 @@
+/* Polyfill for non Bootstrap sites */
+
+:root {
+    --dark: #1f1f1f;
+    --light: #fff;
+}
+.quickdash-itemlink {
+    color: inherit;
+}
+
+.quickdash-tabs  {
+    display: flex;
+}
+.quickdash-tabs button {
+    border-color: #dee2e6 #dee2e6 #fafafa;
+    border-radius: 0;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: .5rem 1rem;
+    text-transform: none;
+    width: 100%;
+}
+
+.quickdash-tabs > .nav-link.active {
+    color: var(--light);
+    background-color: var(--dark);
+}
