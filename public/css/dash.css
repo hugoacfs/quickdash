@@ -13,15 +13,14 @@
     height: 177.8px;
     display: inline-block;
     position: relative;
-    color: #000;
     font-weight: 700;
     background-repeat: no-repeat;
-    background-color: #e9ecef;
-    border: solid #fff 2px;
 }
 
 .quickdash-itemlink:hover {
-     text-decoration: none;
+    text-decoration: none;
+    background-color: var(--bs-light);
+    border: solid var(--bs-dark) 1px;
 }
 
 .quickdash-inner {

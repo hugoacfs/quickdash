@@ -12,7 +12,6 @@
     display: flex;
 }
 .quickdash-tabs button {
-    border-color: #dee2e6 #dee2e6 #fafafa;
     border-radius: 0;
     text-decoration: none;
     cursor: pointer;
